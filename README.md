@@ -93,13 +93,13 @@ Pada praktikum ini, aplikasi Master Plan dikembangkan lebih lanjut dengan menamb
 ---
 
 ## 🎬 Demo Praktikum 3
-![Demo App](lib/images/apk (12).png)
-![Demo App](lib/images/apk (11).png)
-![Demo App](lib/images/apk (10).png)
-![Demo App](lib/images/apk (9).png)
-![Demo App](lib/images/apk (8).png)
-![Demo App](lib/images/apk (7).png)
-![Demo App](lib/images/apk (6).png)
+![Demo App](lib/images/apk%20(12).png)
+![Demo App](lib/images/apk%20(11).png)
+![Demo App](lib/images/apk%20(10).png)
+![Demo App](lib/images/apk%20(9).png)
+![Demo App](lib/images/apk%20(8).png)
+![Demo App](lib/images/apk%20(7).png)
+![Demo App](lib/images/apk%20(6).png)
 
 ---
 
