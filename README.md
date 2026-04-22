@@ -85,3 +85,61 @@ Selama pengerjaan praktikum, beberapa error yang ditemukan dan diperbaiki:
 
 ---
 
+
+## 🧪 Praktikum 3: Pengelolaan Plan & Navigasi
+
+Pada praktikum ini, aplikasi Master Plan dikembangkan lebih lanjut dengan menambahkan fitur pengelolaan banyak plan serta navigasi antar halaman.
+
+---
+
+## 🎬 Demo Praktikum 3
+![Demo App](lib/images/apk (12).png)
+![Demo App](lib/images/apk (11).png)
+![Demo App](lib/images/apk (10).png)
+![Demo App](lib/images/apk (9).png)
+![Demo App](lib/images/apk (8).png)
+![Demo App](lib/images/apk (7).png)
+![Demo App](lib/images/apk (6).png)
+
+---
+
+## 🚀 Deskripsi Implementasi
+
+Pada praktikum ini dilakukan pengembangan aplikasi dengan mengubah struktur data dari satu plan menjadi banyak plan (`List<Plan>`). Hal ini memungkinkan pengguna untuk membuat beberapa rencana sekaligus dan mengelola task di dalam setiap plan secara terpisah.
+
+Aplikasi juga ditambahkan halaman baru yaitu `PlanCreatorScreen` yang berfungsi untuk menambahkan plan baru. Pada halaman ini, pengguna dapat memasukkan nama plan melalui `TextField`, kemudian data akan disimpan ke dalam `PlanProvider` menggunakan `ValueNotifier`.
+
+Selain itu, ditambahkan fitur navigasi menggunakan `Navigator.push` untuk berpindah dari halaman daftar plan ke halaman detail plan (`PlanScreen`). Pada halaman detail, pengguna dapat menambahkan task, mengedit task, serta menandai task sebagai selesai.
+
+---
+
+## ⚙️ Fitur yang Dihasilkan
+- Menambahkan plan baru
+- Menampilkan daftar plan secara dinamis
+- Navigasi ke halaman detail plan
+- Menambahkan dan mengedit task dalam plan
+- Menandai task sebagai selesai
+- Menampilkan progress task pada setiap plan
+- Update UI secara otomatis tanpa `setState`
+
+---
+
+## 🧪 Hasil Akhir
+Setelah seluruh langkah praktikum diselesaikan, aplikasi berhasil berjalan dengan baik di mana pengguna dapat:
+- Menambahkan beberapa plan
+- Melihat daftar plan secara real-time
+- Masuk ke detail plan
+- Mengelola task di dalam plan
+
+Semua perubahan data langsung diperbarui pada tampilan, yang menunjukkan bahwa state management menggunakan `InheritedNotifier` dan `ValueNotifier` telah berjalan dengan baik.
+
+---
+
+## 🐞 Perbaikan Error
+Selama proses pengerjaan, beberapa error yang ditemukan dan diperbaiki:
+- Perubahan tipe data dari `Plan` menjadi `List<Plan>`
+- Penyesuaian penggunaan `PlanProvider.of(context)`
+- Perbaikan konflik data saat update plan dalam list
+- Penyesuaian navigasi antar screen
+
+---
